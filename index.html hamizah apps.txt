@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ms. Hamizah English Learning Check</title>
+    <meta name="description" content="Interactive post-lesson English assessment and learning check system for Ms. Hamizah binti Ahmad at Maahad Tahfiz Negeri Pahang." />
+    <meta property="og:title" content="Ms. Hamizah English Learning Check" />
+    <meta property="og:description" content="Interactive post-lesson English assessment and learning check system for Ms. Hamizah binti Ahmad at Maahad Tahfiz Negeri Pahang." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Plus Jakarta Sans Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- html2pdf.js for A4 report download -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased min-h-screen selection:bg-orange-100 selection:text-orange-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
